@@ -2,11 +2,6 @@
     padding: 0;
     margin: 0;
 }
-img{
-    max-width: 400px;
-    max-height:400px;
-}
-
 
 header, footer{
     background-color: #260101;
@@ -34,6 +29,7 @@ ul{
     list-style: none;
     gap: 15px;
     align-items: flex-start;
+    padding: 0;
 
 }
 h1{
@@ -52,8 +48,8 @@ button{
    
 }
 .header-button{
-    background-color: #F2BC79;
-    color:#260101;
+    background-color: #592202;
+    color: #D9D8D2;
 }
 .top-header{
     display: flex;
@@ -70,10 +66,42 @@ header{
     display: flex;
     flex-direction: column;
     padding: 50px 210px;
+    
 }
 .content-left{
     padding-right: 30px;
 }
 .main-img{
     border-radius: 4px;
+    width: 500px;
+    height:auto;
+}
+h2{
+    text-align: center;
+    background-color: #D9D8D2;
+    color:#260101;
+    font-size: 32px;
+    font-weight: 900;
+    padding: 50px 0px;
+}
+.upper-boddy{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+}
+.coffee-content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 150px;
+}
+.coffee-img{
+    border-radius: 10px;
+    border: 4px solid #592202;
+    width: 150px;
+    height: auto;
 }
